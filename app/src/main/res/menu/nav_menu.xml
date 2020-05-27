@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/ProfileFragment"
+        android:title="My Profile"
+        android:icon="@drawable/ic_profile"
+        />
+
+    <item
+        android:id="@+id/team_fragment"
+        android:title="Team"
+        android:icon="@drawable/team"
+        />
+
+    <item
+        android:id="@+id/career_fragment"
+        android:title="Career"
+        android:icon="@drawable/care"
+        />
+    <item
+        android:id="@+id/work_fragment"
+
+        android:title="Work"
+        android:icon="@drawable/work"
+        />
+
+    <item
+        android:id="@+id/youtube_fragment"
+        android:title="Videos"
+        android:icon="@drawable/youtube"
+        />
+
+
+
+
+
+    <item
+        android:id="@+id/latest_fragment"
+
+        android:title="Latest Updates"
+        android:icon="@drawable/latest"
+        />
+
+
+
+
+    <item
+        android:id="@+id/Forum_Fragment"
+        android:title="Forum"
+        android:icon="@drawable/ic_forum_black_24dp"
+        />
+
+    <item
+        android:id="@+id/DzoneFragment"
+        android:title="Developer Zone"
+        android:icon="@drawable/dzpeople"
+        />
+
+    <item
+        android:id="@+id/Contact_us_Fragement"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_contact_us"
+              />
+
+
+
+<item
+    android:title="About Us"
+    android:id="@+id/aboutus"
+    android:icon="@drawable/ic_info"/>
+
+
+<item android:id="@+id/share"
+    android:title="Share"
+    android:icon="@drawable/ic_share"/>
+
+
+</group>
+</menu>

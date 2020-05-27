@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337876668810",
+    "firebase_url": "https://delta-aura.firebaseio.com",
+    "project_id": "delta-aura",
+    "storage_bucket": "delta-aura.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337876668810:android:a328ebbddba4cfe76e7873",
+        "android_client_info": {
+          "package_name": "com.deltaaura.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337876668810-ksqvqju8tq4cdb65m13ucdmfhbjcrnfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deltaaura.app",
+            "certificate_hash": "bee5b738efbaa1bfae024042ca6bddee3724a5b3"
+          }
+        },
+        {
+          "client_id": "337876668810-q1e221r1goro6t6a2ui88o49sjbhtl38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpk-xa2VrzqHwLW59QMvNgtwvDXnoNso4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337876668810-q1e221r1goro6t6a2ui88o49sjbhtl38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

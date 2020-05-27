@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Delta Aura</string>
+    <string name="thing_to_explore">Things To Explore</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_carrer_fragment">Hello carrer fragment</string>
+    <string name="hello_contactus_fragment">Hello contactus fragment</string>
+    <string name="hello_default_fragment">Hello Default fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_form_message">MESSAGE</string>
+    <string name="contact_form_button">SUBMIT</string>
+    <string name="contact_form_name">NAME</string>
+    <string name="contact_form_email">EMAIL</string>
+    <string name="contact_form_subject">SUBJECT</string>
+    <string name="don_t_have_an_account_nregister_here"><u>Don\'t have an account ? Register Here</u></string>
+    <string name="already_have_an_account_nlogin_here"><u>Already have an account ? Login Here</u></string>
+    <string name="DeltaStamp">deltastamp</string>
+    <string name="sign_up_with_email">Sign up with Email</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="policy"> By Signing in, you agree to our\n Privacy Policy \u0026 Terms \u0026 Conditions.</string>
+    <string name="john_gmail_com"><b>john@gmail.com</b></string>
+    <string name="password"><b>Password</b></string>
+    <string name="upload_cv_in_pdf">Click Here</string>
+    <string name="create_one">CREATE one</string>
+    <string name="content_description_open_drawer">Open Drawer</string>
+    <string name="content_description_close_drawer">Closed Drawer</string>
+
+    <string name="steps">Steps</string>
+
+    <string name="navigation_personal_info">Personal Info</string>
+    <string name="navigation_essentials">Essentials</string>
+    <string name="navigation_projects">Projects</string>
+    <string name="navigation_education">Schools</string>
+    <string name="navigation_experience">Experience</string>
+    <string name="navigation_awards">Awards</string>
+    <string name="navigation_preview">Preview</string>
+
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_print">Print</string>
+
+    <string name="hint_project_name">Project Name</string>
+    <string name="hint_detail">Detail</string>
+    <string name="hint_subtitle">Subtitle</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="hint_location">Location</string>
+    <string name="hint_job_title">Job Title</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_address_line1">Address line1</string>
+    <string name="hint_address_line2">Address line2</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_school_name">School Name</string>
+    <string name="hint_degree">Degree</string>
+    <string name="hint_skills">Skills</string>
+    <string name="hint_languages">Languages</string>
+
+    <string name="message_empty_list">This is empty list</string>
+
+    <string name="symbol_separator" translatable="false">ㅡ</string>
+    <string name="education">Education</string>
+</resources>

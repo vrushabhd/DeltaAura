@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/black_bg"
+    android:layout_height="match_parent"
+    tools:context=".AuraActivity">
+<ImageView
+    android:id="@+id/toptab"
+
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+    android:src="@drawable/rectangle13"
+    />
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_below="@id/toptab"
+       android:layout_above="@+id/bottomtab"
+       android:layout_height="match_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+       <LinearLayout
+           android:id="@+id/firstlayout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardviewAffairs"
+           android:layout_width="177dp"
+           android:layout_height="wrap_content"
+           app:cardElevation="6dp"
+           android:layout_weight="1"
+           app:cardCornerRadius="12dp"
+           android:layout_margin="12dp"
+           >
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="16dp"
+               android:background="@drawable/cardview_color">
+
+
+               <ImageView
+                   android:scaleType="fitXY"
+
+                   android:src="@drawable/affairs"
+                   android:layout_width="wrap_content"
+                   android:layout_height="145dp"
+                   android:layout_gravity="center"
+
+/>
+
+
+
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+
+
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/cardviewCommunity"
+               android:layout_width="177dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/cardview_color"
+                   android:padding="16dp"
+
+                   >
+                   <ImageView
+                       android:src="@drawable/community1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="145dp"
+                       android:layout_gravity="center"/>
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+       </LinearLayout>
+<LinearLayout
+    android:id="@+id/secondlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/firstlayout"
+    android:orientation="horizontal"
+
+
+    >
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/cardviewCarrers"
+               android:layout_width="177dp"
+               android:layout_height="wrap_content"
+              android:layout_weight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/cardview_color"
+                   android:padding="16dp"
+                   >
+                   <ImageView
+                       android:scaleType="fitXY"
+                       android:src="@drawable/careers"
+                       android:layout_width="wrap_content"
+                       android:layout_height="145dp"
+                       android:layout_gravity="center"
+                       />
+
+
+
+
+
+
+
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/carviewCommercials"
+               android:layout_width="177dp"
+               android:layout_height="wrap_content"
+              android:layout_weight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/cardview_color"
+                   android:padding="16dp"
+                   >
+                   <ImageView
+                       android:scaleType="fitXY"
+                       android:src="@drawable/commercials"
+                       android:layout_width="wrap_content"
+                       android:layout_height="145dp"
+                       android:layout_gravity="center"
+                       />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+          <LinearLayout
+              android:layout_below="@id/secondlayout"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+           <androidx.cardview.widget.CardView
+               android:id="@+id/cardviewforum"
+               android:layout_width="177dp"
+               android:layout_height="wrap_content"
+             android:layout_weight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/cardview_color"
+                   android:padding="16dp"
+                   >
+                   <ImageView
+                       android:scaleType="fitXY"
+                       android:src="@drawable/forum"
+                       android:layout_width="wrap_content"
+                       android:layout_height="145dp"
+                       android:layout_gravity="center"
+                       />
+
+
+
+
+
+
+
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/cardviewdonate"
+               android:layout_width="177dp"
+               android:layout_height="wrap_content"
+              android:layout_weight="1"
+               app:cardElevation="6dp"
+               app:cardCornerRadius="12dp"
+               android:layout_margin="12dp"
+               >
+              <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/cardview_color"
+                  android:padding="16dp"
+                  >
+                  <!--  odd change must be wrap content-->
+                  <ImageView
+                      android:scaleType="fitXY"
+                      android:src="@drawable/donate"
+                      android:layout_width="wrap_content"
+                      android:layout_height="145dp"
+                      android:layout_gravity="center"
+                      />
+              </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+
+       </LinearLayout>
+</RelativeLayout>
+
+   </ScrollView>
+
+
+
+    <ImageView
+        android:id="@+id/bottomtab"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/rectangle20"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+
+
+</RelativeLayout>

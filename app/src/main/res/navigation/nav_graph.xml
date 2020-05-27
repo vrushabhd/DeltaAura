@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ProfileFragment">
+
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.deltaaura.app.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/actionVerifyPhone"
+            app:destination="@id/verifyPhoneFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit"/>
+
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/contact_us_Fragement"
+        android:name="com.deltaaura.app.ContactusFragement"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contactus_fragement"
+        />
+    <fragment
+        android:id="@+id/verifyPhoneFragment"
+        android:name="com.deltaaura.app.VerifyPhoneFragment"
+        android:label="Verification"
+        tools:layout="@layout/fragment_verify_phone">
+        <action
+            android:id="@+id/actionPhoneVerified"
+            app:destination="@id/ProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forumFragment"
+        android:name="com.deltaaura.app.ForumFragment"
+        android:label="Forum"
+        tools:layout="@layout/fragment_forum" />
+    <fragment
+        android:id="@+id/defaultFragment"
+        android:name="com.deltaaura.app.DefaultFragment"
+        android:label="fragment_default"
+        tools:layout="@layout/fragment_default" />
+
+    <fragment
+        android:id="@+id/Home_Fragment"
+        android:name="com.deltaaura.app.HomeFragment"
+        android:label="Delta The Innovators"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/team_fragment"
+        android:name="com.deltaaura.app.TeamFragment"
+        android:label="Team"
+        tools:layout="@layout/fragment_team" />
+    <fragment
+        android:id="@+id/latest_fragment"
+        android:name="com.deltaaura.app.LatestFragment"
+        android:label="Latest Updates"
+        tools:layout="@layout/fragment_latest" />
+    <fragment
+        android:id="@+id/work_fragment"
+        android:name="com.deltaaura.app.WorkFragment"
+        android:label="Work"
+        tools:layout="@layout/fragment_work" />
+    <fragment
+        android:id="@+id/youtube_fragment"
+        android:name="com.deltaaura.app.YoutubeFragment"
+        android:label="Youtube"
+        tools:layout="@layout/fragment_youtube" />
+    <fragment
+        android:id="@+id/dzoneFragment"
+        android:name="com.deltaaura.app.DzoneFragment"
+        android:label="Developer Zone"
+        tools:layout="@layout/fragment_dzone" />
+
+</navigation>

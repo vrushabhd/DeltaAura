@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_bg"
+    tools:context=".SignUpOptions">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="285dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/DeltaStamp"
+        app:srcCompat="@drawable/delstamp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AURA"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+
+        />
+
+    <Button
+        android:id="@+id/googleBtn"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:drawableStart="@drawable/google"
+        android:drawablePadding="15dp"
+        android:text="@string/continue_with_google"
+        android:gravity="start"
+        android:paddingVertical="10dp"
+        android:textAllCaps="false"
+
+
+        />
+
+    <Button
+        android:id="@+id/EmailBtn"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="500dp"
+        android:drawablePadding="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button_mail"
+        android:drawableStart="@drawable/email"
+        android:text="@string/sign_up_with_email"
+        android:gravity="left"
+        android:paddingVertical="10dp"
+        android:textAllCaps="false"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="640dp"
+        android:fontFamily="sans-serif-bold"
+      android:gravity="center"
+        android:text="@string/policy"
+
+
+        android:textColor="#fff" />
+</RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

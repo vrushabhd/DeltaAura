@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_bg"
+    tools:context=".RegisterActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="282dp"
+            android:layout_height="295dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/DeltaStamp"
+            app:srcCompat="@drawable/delstamp" />
+
+    <TextView
+        android:id="@+id/aura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AURA"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+
+        />
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@id/aura"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/backbutton"
+
+        />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button_mail"
+        android:drawableStart="@drawable/ic_email"
+        android:gravity="left"
+        android:hint="@string/john_gmail_com"
+        android:inputType="textEmailAddress"
+        android:paddingVertical="10dp"
+
+
+
+        />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:singleLine="true"
+        android:layout_marginTop="500dp"
+        android:id="@+id/register_password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button_mail"
+        android:drawableStart="@drawable/ic_lock"
+        android:gravity="left"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingVertical="10dp"
+
+
+        />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="120dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="590dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_default_register"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/text_view_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:text="Already a member? Sign in"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+
+
+        />
+    <ProgressBar
+        android:id="@+id/progressbarregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:visibility="gone"
+
+
+        />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>
